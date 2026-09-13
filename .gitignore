@@ -1,0 +1,43 @@
+# --- Runtime / generated artifacts ---
+__pycache__/
+*.pyc
+output.csv
+code.zip
+zip_scratch_output.csv
+scratch_output.csv
+*scratch*.csv
+
+# --- Local-only files (never commit) ---
+.env
+log.txt
+nul
+
+# --- Scratch experiment / analysis workspaces (not part of the submission) ---
+_v2_runs/
+_zoom_ocr/
+
+# Root-level scratch analysis & debug scripts (production code lives in code/)
+/analyze_*.py
+/check_*.py
+/compare_*.py
+/debug_*.py
+/diag_*.py
+/eval25.py
+/exp_*.py
+/find_*.py
+/findings_and_proposed_changes.md
+/final_*.py
+/forensics_*.py
+/grid_*.py
+/investigate_*.py
+/p1_*.py
+/p2_*.py
+/p3_*.py
+/p4_*.py
+/run_*.py
+/verify_*.py
+/scratch_*.py
+
+# Root-level scratch data outputs (kept out of the repo; code/.image_cache.json IS tracked)
+/*.json
+/*.txt
