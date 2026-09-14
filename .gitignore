@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Storage directory (user data, generated files)
+storage/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+
+# Temporary / debug / generated files
+*.log
+*.tmp
+*.temp
+.DS_Thumbs.db
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Packaging
+build/
+dist/
+*.egg-info/

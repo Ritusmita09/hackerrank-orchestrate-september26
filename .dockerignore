@@ -1,0 +1,21 @@
+# Never bake secrets or local state into the image.
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local databases & logs
+*.db
+*.sqlite3
+*.log
+
+# Docs & tooling not needed at runtime
+*.md
+.git
+.gitignore
+run_tests.py
+storage/
